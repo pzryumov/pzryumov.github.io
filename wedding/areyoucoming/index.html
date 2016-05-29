@@ -76,6 +76,10 @@
                 background-image: url("peach-abstract-background.jpg");
                 background-size:     cover;
             }
+
+            .freebirdFormviewerViewResponseConfirmContentContainer {
+                //display: none;
+            }
         </style>
 
         <link rel="icon" sizes="192x192" href="http://ssl.gstatic.com/docs/forms/device_home/android_192.png">
@@ -95,7 +99,11 @@
                 <form id="foo">
                     <div class="freebirdFormviewerViewFormCard">
                         <div class="freebirdFormviewerViewAccentBanner freebirdAccentBackground"></div>
-                        <div class="freebirdFormviewerViewFormContent ">
+                        <div class="freebirdFormviewerViewResponseConfirmContentContainer">
+                            <div class="freebirdFormviewerViewResponsePageTitle">Thank you for the response!</div>
+                            <p>We're excited to share such a happy moment of our lives with you.</p>
+                        </div>
+                        <div class="freebirdFormviewerViewFormContent">
                             <div class="freebirdFormviewerViewHeaderHeader">
                                 <div class="freebirdFormviewerViewHeaderTitleRow">
                                     <div class="freebirdFormviewerViewHeaderTitle" dir="auto" role="heading">Pasha &amp; Kristina's Wedding</div>
@@ -272,6 +280,9 @@
             if (request) {
                 request.abort();
             }
+            // hide the submit button
+            $('.freebirdFormviewerViewNavigationButtonsAndProgress').hide();
+
             // setup some local variables
             var $form = $(this);
             // let's select and cache all the fields
@@ -286,16 +297,18 @@
             // fire off the request to /form.php
             request = $.ajax({
                 // url: "https://script.google.com/macros/s/AKfycbzV--xTooSkBLufMs4AnrCTdwZxVNtycTE4JNtaCze2UijXAg8/exec", // works
-          url: "https://script.google.com/macros/s/AKfycbybOfLp_TabJMvWhG-jGh6_pCq5NxttJwxogdjw3tF6Xyi4Xx4/exec",  // clone
+                url: "https://script.google.com/macros/s/AKfycbybOfLp_TabJMvWhG-jGh6_pCq5NxttJwxogdjw3tF6Xyi4Xx4/exec",  // clone
                 type: "post",
                 data: serializedData
             });
             // callback handler that will be called on success
             request.done(function (response, textStatus, jqXHR){
                 // log a message to the console
-          console.log(response, textStatus, jqXHR);
+                console.log(response, textStatus, jqXHR);
                 //$('#result').html('<a href="https://docs.google.com/spreadsheets/d/1ZjAkNnmksKcCSYEhRZBQiAEPCAlIqwBapHdDeHkW0qc/edit?usp=sharing" target="_blank">Success - see Google Sheet</a>');
                 console.log("Hooray, it worked!");
+                $('.freebirdFormviewerViewResponseConfirmContentContainer').show();
+                $('.freebirdFormviewerViewFormContent').hide();
             });
             // callback handler that will be called on failure
             request.fail(function (jqXHR, textStatus, errorThrown){
