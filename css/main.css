@@ -1,0 +1,162 @@
+
+/* Global Layout Narrow container */
+@media (min-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+}
+
+a {
+	color: #002C77;
+}
+
+/* Header*/
+.logo {
+	height:60px;
+}
+.header {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-bottom: 2px solid #002C77;
+}
+/* Main Area */
+
+.photo {
+	height: 350px;
+	padding-bottom: 10px;
+}
+
+.photo-small {
+	height: 250px;
+	float: right;
+	margin-left: 20px;
+}
+
+.jumbotron ul {
+	list-style: none;
+	padding-left: 0px;
+	font-size: 16px;
+}
+
+.jumbotron p {
+	font-size: 16px
+}
+
+h1.name {
+	margin-top: -10px;
+	font-size: 40px;
+}
+
+
+
+.jumbotron h3 {
+	margin-top: 20px;
+}
+
+.jumbotron {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.cv {
+	font-size: 20px;
+}
+
+
+
+/* Papers Area */
+
+
+.main-area h1 {
+	font-size: 30px;
+}
+
+.papers ul{
+	list-style: none;
+	padding-left: 0px;
+}
+
+
+
+.working-papers .title {
+	display: inline;
+	padding-right: 20px
+}
+
+.working-papers ul{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.working-papers .paper-link {
+	font-size: 18px;
+}
+
+.working-papers .pdf {
+	padding-right: 10px;
+}
+
+.working-papers .co-authors {
+	font-size: 15px;
+	padding-bottom: 5px;
+}
+
+.working-papers .abstract {
+	font-size: 13px;
+	text-align: justify;
+}
+
+.working-paper {
+	padding-bottom: 25px;
+}
+
+
+/* Publications */
+
+.publications h1 {
+	font-size: 28px;
+}
+
+.publication .title {
+	display: inline;
+	padding-right: 20px
+}
+
+.publication .paper-link {
+	font-size: 18px;
+}
+
+.publication .abstract {
+	font-size: 13px;
+	text-align: justify;
+}
+
+.publication {
+	padding-bottom: 25px;
+}
+
+
+/* Teaching */
+
+.teaching ul{
+	list-style: none;
+	padding-left: 0px;
+	font-size: 16px;
+}
+.teaching .abstract {
+	padding-top: 5px;
+	font-size: 13px;
+	text-align: justify;
+}
+
+/* Contact Information */
+
+.contact-info ul{
+	list-style: none;
+	padding-left: 0px;
+}
+
+
+
+
+

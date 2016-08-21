@@ -1,0 +1,29 @@
+
+{
+	"folders":
+	[
+		{
+			"path": "/Users/pzryumov/Projects/Personal Website/code",
+			"file_exclude_patterns" : [
+				"*.m",
+				"*.log",
+				"*.bbl",
+				"*.aux",
+				"*.gz",
+				"*.bak",
+				"*.blg",
+				"*latexmk",
+				"*.eps",
+				"*.bst",
+				"*.txt",
+				"*.docx",
+				"*.png",
+				"*.zip",
+				"*.out",
+				"*.gz(busy)",
+				"*.pdf",
+				"*.hgignore"
+				]
+		}
+	]
+}
