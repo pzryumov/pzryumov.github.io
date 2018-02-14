@@ -92,6 +92,13 @@ h1.name {
 	font-size: 18px;
 }
 
+.working-papers .submission-status {
+	display: inline;
+	font-weight: normal;
+	font-size: 18px;
+	padding-left: 10px;
+}
+
 .working-papers .date#new {
 	color: #a41d21;
 	font-weight: bold;
