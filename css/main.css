@@ -144,6 +144,10 @@ h1.name {
 	text-align: justify;
 }
 
+.publication .pub-info {
+	font-size: 18px;
+}
+
 .publication {
 	padding-bottom: 25px;
 }
