@@ -100,9 +100,9 @@ h1.name {
 }
 
 .working-papers .date#new {
-	color: #a41d21;
+	/* color: #a41d21; */
 	font-weight: bold;
-	font-size: 17px;
+	/* font-size: 17px; */
 }
 
 .working-papers .pdf {
