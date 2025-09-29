@@ -90,7 +90,7 @@ h1.name {
 
 .working-papers .title {
 	display: inline;
-	padding-right: 10px
+	padding-right: 5px
 }
 
 .working-papers ul{
@@ -114,10 +114,6 @@ h1.name {
 	/* color: #a41d21; */
 	font-size: 16px;
 	/* font-size: 17px; */
-}
-
-.working-papers .pdf {
-	padding-right: 10px;
 }
 
 .working-papers .co-authors {
@@ -149,7 +145,7 @@ h1.name {
 
 .publication .title {
 	display: inline;
-	padding-right: 10px
+	padding-right: 5px
 }
 
 .publication .journal {
