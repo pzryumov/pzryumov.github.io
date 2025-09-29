@@ -66,6 +66,13 @@ h1.name {
 
 /* Papers Area */
 
+.publications h2 {
+	padding-bottom: 10px;
+}
+
+.working-papers h2 {
+	padding-bottom: 10px;
+}
 
 .main-area h1 {
 	font-size: 30px;
@@ -76,11 +83,14 @@ h1.name {
 	padding-left: 0px;
 }
 
+.title {
+	font-size: 18px;
+}
 
 
 .working-papers .title {
 	display: inline;
-	padding-right: 20px
+	padding-right: 10px
 }
 
 .working-papers ul{
@@ -89,7 +99,8 @@ h1.name {
 }
 
 .working-papers .paper-link {
-	font-size: 18px;
+	font-size: 16px;
+	font-weight: bold;
 }
 
 .working-papers .submission-status {
@@ -99,9 +110,9 @@ h1.name {
 	padding-left: 10px;
 }
 
-.working-papers .date#new {
+.working-papers .date {
 	/* color: #a41d21; */
-	font-weight: bold;
+	font-size: 16px;
 	/* font-size: 17px; */
 }
 
@@ -110,13 +121,19 @@ h1.name {
 }
 
 .working-papers .co-authors {
-	font-size: 15px;
+	font-size: 16px;
+	padding-bottom: 5px;
+}
+
+.publication .co-authors {
+	font-size: 16px;
 	padding-bottom: 5px;
 }
 
 .working-papers .abstract {
 	font-size: 13px;
 	text-align: justify;
+	padding-top: 5px;
 }
 
 .working-paper {
@@ -132,11 +149,12 @@ h1.name {
 
 .publication .title {
 	display: inline;
-	padding-right: 20px
+	padding-right: 10px
 }
 
-.publication .paper-link {
-	font-size: 18px;
+.publication .journal {
+	font-size: 16px;
+	font-weight: bold;
 }
 
 .publication .abstract {
