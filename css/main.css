@@ -19,6 +19,13 @@ a {
 	padding-bottom: 15px;
 	border-bottom: 2px solid #002C77;
 }
+.header .nav-link {
+	float: right;
+	line-height: 60px;
+	font-size: 22px;
+	margin-left: 20px;
+	font-variant: small-caps;
+}
 /* Main Area */
 
 .photo {
@@ -169,15 +176,44 @@ h1.name {
 
 /* Teaching */
 
+.teaching h2 {
+	padding-bottom: 10px;
+	margin-bottom: 25px;
+}
 .teaching ul{
 	list-style: none;
 	padding-left: 0px;
+	font-size: 18px;
+	margin-bottom: 25px;
+}
+.teaching .class-description {
+	padding-top: 5px;
+	font-size: 15px;
+	text-align: justify;
+}
+
+/* Discussions */
+
+.discussions h2 {
+	padding-bottom: 10px;
+	margin-bottom: 25px;
+}
+.discussions .discussion {
+	padding-bottom: 25px;
 	font-size: 16px;
 }
-.teaching .abstract {
-	padding-top: 5px;
-	font-size: 13px;
-	text-align: justify;
+.discussions .number,
+.discussions .title,
+.discussions .authors,
+.discussions .discussion-conference {
+	display: inline;
+	padding-right: 5px;
+	font-size: 16px;
+	font-weight: normal;
+}
+.discussions .discussion-conference {
+	font-weight: bold;
+	white-space: nowrap;
 }
 
 /* Contact Information */
