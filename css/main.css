@@ -46,7 +46,8 @@ a {
 }
 
 .jumbotron p {
-	font-size: 16px
+	font-size: 16px;
+	font-weight: normal;
 }
 
 h1.name {
@@ -67,6 +68,18 @@ h1.name {
 
 .cv {
 	font-size: 20px;
+}
+
+.jumbotron .job-market {
+	color: #a41d21;
+	/* font-weight: normal; */
+	/* font-size: 16px; */
+	margin-bottom: 4px;
+}
+
+.jumbotron .job-market .ay {
+	font-size: 0.9em;
+	letter-spacing: 0.05em;
 }
 
 
