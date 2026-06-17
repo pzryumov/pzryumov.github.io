@@ -110,7 +110,7 @@ h1.name {
 
 .working-papers .title {
 	display: inline;
-	padding-right: 5px
+	padding-right: 5px;
 }
 
 .working-papers ul{
@@ -165,7 +165,8 @@ h1.name {
 
 .publication .title {
 	display: inline;
-	padding-right: 5px
+	padding-right: 5px;
+	font-size: 18px
 }
 
 .publication .journal {
