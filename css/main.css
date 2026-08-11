@@ -29,8 +29,7 @@ a {
 /* Main Area */
 
 .photo {
-	width: 280px;
-	max-width: 100%;
+	width: 320px;
 	height: auto;
 	padding-bottom: 10px;
 }
@@ -41,6 +40,8 @@ a {
 		text-align: center;
 	}
 	.photo {
+		width: 100%;
+		max-width: 320px;
 		margin-bottom: 20px;
 	}
 }
